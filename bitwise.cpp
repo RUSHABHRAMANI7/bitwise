@@ -1,21 +1,21 @@
-#include<iostream>
-using namespace std ; 
+#include <iostream>
+using namespace std;
 
-int bitwise(int n ){
-int res = 0 ; 
-while (n>0){
-    res++; 
+int bitwise(int n)
+{
+    int res = 0;
+    while (n > 0)
+    {
+        res++;
 
-    n=n>>1;
+        n = n >> 1;
+    }
+    return res;
 }
-return res; 
-
-}
-int main(){
-    int n  ;
-    cout << "Enter the number "<< endl ;
-    cin >> n; 
-   cout <<  bitwise(n); 
-
-
+int main()
+{
+    int n;
+    cout << "Enter the number " << endl;
+    cin >> n;
+    cout << bitwise(n);
 }
