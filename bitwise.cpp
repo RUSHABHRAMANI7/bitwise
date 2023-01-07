@@ -17,5 +17,6 @@ int main()
     int n;
     cout << "Enter the number " << endl;
     cin >> n;
-    cout << bitwise(n);
+    cout << bitwise(n) << endl ;
+    cout << (1<<16) ;
 }

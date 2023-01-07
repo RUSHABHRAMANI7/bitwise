@@ -23,8 +23,8 @@ int two_odd_ocurring(vector<int> &v)
             res_1 = res_1 ^ v[i];
     }
 
-   cout << "the odd number occuring odd number of times "<< res<<  endl ;
-   cout << "the even numberoccuring odd number of times "<< res_1<< endl ;
+   cout << "the smaller number occuring odd number of times "<< res<<  endl ;
+   cout << "the larger  number occuring odd number of times "<< res_1<< endl ;
     
 }
 int main()
